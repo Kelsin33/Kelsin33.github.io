@@ -1,0 +1,21 @@
+# Site settings
+title: The Coding Blerd
+header-img: img/home-bg.png
+email: kdmassey2@gmail.com
+copyright_name: Kelsin33
+description: > # this means to ignore newlines until "baseurl:"
+  Adventures in learning how to code
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: jazzchica
+github_username:  Kelsin33
+learn_profile: Kelsin33
+email_username: kdmassey2@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
